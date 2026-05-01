@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How can I reset my password?",
+    "answer": "You can reset your password by clicking on 'Forgot Password' on the login page and following the email verification steps."
+  },
+  {
+    "question": "How do I track my order?",
+    "answer": "You can track your order from the 'My Orders' section using your order ID."
+  },
+  {
+    "question": "What is the refund policy?",
+    "answer": "Refunds are usually processed within 5-7 business days after the returned product passes quality checks."
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can contact support through live chat, email, or by raising a support ticket from your account dashboard."
+  },
+  {
+    "question": "Why is my payment failing?",
+    "answer": "Payment failure may happen due to incorrect card details, low balance, bank restrictions, or network issues. Please try again or use another payment method."
+  },
+  {
+    "question": "Can I cancel my order?",
+    "answer": "You can cancel your order before it is shipped from the 'My Orders' section."
+  }
+]
