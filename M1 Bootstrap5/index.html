@@ -533,3 +533,291 @@ Using margin and padding classes.
 </p>
 
 </div>
+
+<!-- ===========================
+Exercise 13 - Colors & Backgrounds
+=========================== -->
+
+<div class="container mt-5">
+
+    <div class="bg-primary text-white p-4 mb-3">
+
+        Primary Background
+
+    </div>
+
+    <div class="bg-warning text-dark p-4 mb-3">
+
+        Warning Background
+
+    </div>
+
+    <div class="bg-success text-white p-4 mb-3">
+
+        Success Background
+
+    </div>
+
+    <div class="bg-dark bg-gradient text-white p-4">
+
+        Dark Gradient Background
+
+    </div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 14 - Display Utilities
+=========================== -->
+
+<div class="container">
+
+    <div class="d-none d-md-block bg-info p-3 mb-3">
+
+        Visible only on Medium Screens and Above
+
+    </div>
+
+    <div class="d-none d-lg-flex bg-secondary text-white p-3">
+
+        Visible only on Large Screens
+
+    </div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 15 - Borders & Shadows
+=========================== -->
+
+<div class="container">
+
+    <img
+    src="https://picsum.photos/200"
+    class="rounded-circle border border-primary border-3 mb-4">
+
+    <div class="card shadow-lg rounded-pill p-4">
+
+        <h4>
+
+            Bootstrap Shadow Card
+
+        </h4>
+
+        <p>
+
+            Using shadow-lg and rounded-pill.
+
+        </p>
+
+    </div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 16 - Position Utilities
+=========================== -->
+
+<div class="container position-relative mt-5">
+
+    <img
+    src="https://picsum.photos/500/250"
+    class="img-fluid rounded">
+
+    <span
+    class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+
+        New
+
+    </span>
+
+</div>
+
+<footer class="position-fixed bottom-0 start-0 w-100 bg-dark text-white text-center p-2">
+
+    Fixed Footer
+
+</footer>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 17 - Bootstrap Icons
+=========================== -->
+
+<div class="container text-center mt-5">
+
+    <h2>Follow Us</h2>
+
+    <i class="bi bi-facebook fs-2 text-primary me-3"></i>
+
+    <i class="bi bi-instagram fs-2 text-danger me-3"></i>
+
+    <i class="bi bi-twitter-x fs-2 text-dark me-3"></i>
+
+    <i class="bi bi-linkedin fs-2 text-primary"></i>
+
+    <br><br>
+
+    <button class="btn btn-outline-primary">
+
+        <i class="bi bi-house-door-fill"></i>
+
+    </button>
+
+    <button class="btn btn-outline-success">
+
+        <i class="bi bi-check-circle-fill"></i>
+
+    </button>
+
+    <button class="btn btn-outline-danger">
+
+        <i class="bi bi-trash-fill"></i>
+
+    </button>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 18 - Modal
+=========================== -->
+
+<div class="container">
+
+<button
+class="btn btn-primary"
+data-bs-toggle="modal"
+data-bs-target="#eventModal">
+
+Open Modal
+
+</button>
+
+<div
+class="modal fade"
+id="eventModal">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">
+
+Community Event
+
+</h5>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+
+</button>
+
+</div>
+
+<div class="modal-body">
+
+Welcome to Bootstrap 5 Modal!
+
+</div>
+
+<div class="modal-footer">
+
+<button
+class="btn btn-secondary"
+data-bs-dismiss="modal">
+
+Close
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 18.2 - Accordion
+=========================== -->
+
+<div class="container">
+
+<div
+class="accordion"
+id="accordionExample">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button
+class="accordion-button"
+data-bs-toggle="collapse"
+data-bs-target="#collapseOne">
+
+Event Details
+
+</button>
+
+</h2>
+
+<div
+id="collapseOne"
+class="accordion-collapse collapse show"
+data-bs-parent="#accordionExample">
+
+<div class="accordion-body">
+
+Bootstrap Accordion Example.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- ===========================
+Exercise 19 - Sass
+=========================== -->
+
+<div class="container">
+
+<div class="alert alert-info">
+
+Sass customization is normally done using npm and Bootstrap source files.
+For this exercise, mention it in README.
+
+</div>
+
+</div>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
