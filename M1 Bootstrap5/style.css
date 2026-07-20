@@ -1,0 +1,23 @@
+body{
+
+    padding-bottom:80px;
+
+}
+
+.card{
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:scale(1.03);
+
+}
+
+footer{
+
+    z-index:1000;
+
+}
